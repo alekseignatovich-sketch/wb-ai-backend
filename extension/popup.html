@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 400px;
+      background: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 16px;
+      font-size: 16px;
+      margin: 0;
+    }
+    .logo {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 16px;
+      font-size: 18px;
+    }
+    .btn {
+      background: #e53935;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 16px;
+      margin: 6px 0;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+    }
+    .result {
+      margin-top: 16px;
+      padding: 12px;
+      background: #1e1e1e;
+      border-radius: 8px;
+      white-space: pre-wrap;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">🔍 WB AI Analyst</div>
+  <button class="btn" id="analyze">Анализ товара</button>
+  <button class="btn" id="niche">Найти нишу</button>
+  <button class="btn" id="seo">SEO-описание</button>
+  <div class="result" id="output">Выберите действие</div>
+  <script src="popup.js"></script>
+</body>
+</html>
