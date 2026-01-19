@@ -1,5 +1,5 @@
 // ⚠️ ЗАМЕНИ ЭТОТ URL НА СВОЙ ПУБЛИЧНЫЙ ИЗ RAILWAY!
-const BACKEND_URL = "https://wb-ai-backend-production-xxxx.up.railway.app/analyze";
+const BACKEND_URL = "https://wb-ai-backend-production.up.railway.app/";
 
 async function sendToAI(type, data) {
   const output = document.getElementById('output');
